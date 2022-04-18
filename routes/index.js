@@ -14,7 +14,7 @@ mainrouter.use("/fitness", fitnessRouter);
 mainrouter.use("/tollywood", tollywoodRouter);
 mainrouter.use("/technology", technologyRouter);
 mainrouter.use("/food", foodRouter);
-mainrouter.use("/article", articleRouter);
+mainrouter.use("/articles", articleRouter);
 
 
 module.exports = mainrouter;
